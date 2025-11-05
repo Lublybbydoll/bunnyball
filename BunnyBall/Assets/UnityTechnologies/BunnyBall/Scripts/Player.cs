@@ -7,8 +7,8 @@ public class Player : MonoBehaviour
     public Rigidbody rb;
     public Transform cameraTransform;
     public GameManager gameManager;
-    public int speed = 1;
-    public int jumpForce = 100;
+    public int speed = 5;
+    public int jumpForce = 200;
     private int x = 0;
     private bool isGrounded = false;
 
@@ -26,12 +26,12 @@ public class Player : MonoBehaviour
         forward.Normalize();
         right.Normalize();
         Vector3 direction = forward * moveVertical + right * moveHorizontal;
-        rb.AddForce(direction * 5);
+        rb.AddForce(direction * speed);
 
         if(Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
         {
         Debug.Log("Space was pressed");
-        rb.AddForce(Vector3.up * 400);
+        rb.AddForce(Vector3.up * jumpForce);
         }
     }
 

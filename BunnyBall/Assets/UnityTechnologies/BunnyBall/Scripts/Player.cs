@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     public Rigidbody rb;
     public Transform cameraTransform;
     public GameManager gameManager;
-    public int speed = 5;
+    public int speed = 200;
     public int jumpForce = 200;
     private int x = 0;
     private bool isGrounded = false;

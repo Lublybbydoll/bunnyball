@@ -632,7 +632,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09812bb67e2ecd84997872806b871969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::fallingplatform
-  rb: {fileID: 0}
+  rb: {fileID: 149087854}
+--- !u!54 &149087854
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149087852}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -748,7 +775,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09812bb67e2ecd84997872806b871969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::fallingplatform
-  rb: {fileID: 0}
+  rb: {fileID: 229319784}
+--- !u!54 &229319784
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229319782}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &265263232
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1034,6 +1088,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7119512674978284386, guid: ff809012324d5ce4db798c23137b771c,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1042,6 +1101,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 787044993}
+    - targetCorrespondingSourceObject: {fileID: 4822194570740302561, guid: ff809012324d5ce4db798c23137b771c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 787044994}
   m_SourcePrefab: {fileID: 100100000, guid: ff809012324d5ce4db798c23137b771c, type: 3}
 --- !u!1 &368699589 stripped
 GameObject:
@@ -1061,7 +1124,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09812bb67e2ecd84997872806b871969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::fallingplatform
-  rb: {fileID: 0}
+  rb: {fileID: 368699591}
+--- !u!54 &368699591
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368699589}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &419700434
 GameObject:
   m_ObjectHideFlags: 3
@@ -1601,6 +1691,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 699768609}
+    - targetCorrespondingSourceObject: {fileID: 4822194570740302561, guid: ff809012324d5ce4db798c23137b771c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 699768610}
   m_SourcePrefab: {fileID: 100100000, guid: ff809012324d5ce4db798c23137b771c, type: 3}
 --- !u!1001 &589377869
 PrefabInstance:
@@ -1685,6 +1779,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7119512674978284386, guid: ff809012324d5ce4db798c23137b771c,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1693,6 +1792,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 229319783}
+    - targetCorrespondingSourceObject: {fileID: 4822194570740302561, guid: ff809012324d5ce4db798c23137b771c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 229319784}
   m_SourcePrefab: {fileID: 100100000, guid: ff809012324d5ce4db798c23137b771c, type: 3}
 --- !u!1 &628887542 stripped
 GameObject:
@@ -1712,7 +1815,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09812bb67e2ecd84997872806b871969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::fallingplatform
-  rb: {fileID: 0}
+  rb: {fileID: 628887544}
+--- !u!54 &628887544
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628887542}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &699768608 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4822194570740302561, guid: ff809012324d5ce4db798c23137b771c,
@@ -1731,7 +1861,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09812bb67e2ecd84997872806b871969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::fallingplatform
-  rb: {fileID: 0}
+  rb: {fileID: 699768610}
+--- !u!54 &699768610
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699768608}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &787044992 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4822194570740302561, guid: ff809012324d5ce4db798c23137b771c,
@@ -1750,7 +1907,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09812bb67e2ecd84997872806b871969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::fallingplatform
-  rb: {fileID: 0}
+  rb: {fileID: 787044994}
+--- !u!54 &787044994
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787044992}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &796955507
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1904,7 +2088,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09812bb67e2ecd84997872806b871969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::fallingplatform
-  rb: {fileID: 0}
+  rb: {fileID: 976374965}
+--- !u!54 &976374965
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976374963}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1048762557
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1988,6 +2199,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7119512674978284386, guid: ff809012324d5ce4db798c23137b771c,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1996,6 +2212,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 368699590}
+    - targetCorrespondingSourceObject: {fileID: 4822194570740302561, guid: ff809012324d5ce4db798c23137b771c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 368699591}
   m_SourcePrefab: {fileID: 100100000, guid: ff809012324d5ce4db798c23137b771c, type: 3}
 --- !u!1 &1111526097
 GameObject:
@@ -2246,7 +2466,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09812bb67e2ecd84997872806b871969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::fallingplatform
-  rb: {fileID: 0}
+  rb: {fileID: 1187740078}
+--- !u!54 &1187740078
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187740076}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1187894280
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2330,6 +2577,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7119512674978284386, guid: ff809012324d5ce4db798c23137b771c,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2338,6 +2590,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 628887543}
+    - targetCorrespondingSourceObject: {fileID: 4822194570740302561, guid: ff809012324d5ce4db798c23137b771c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 628887544}
   m_SourcePrefab: {fileID: 100100000, guid: ff809012324d5ce4db798c23137b771c, type: 3}
 --- !u!1 &1307041885 stripped
 GameObject:
@@ -2785,6 +3041,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7119512674978284386, guid: ff809012324d5ce4db798c23137b771c,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2793,6 +3054,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 149087853}
+    - targetCorrespondingSourceObject: {fileID: 4822194570740302561, guid: ff809012324d5ce4db798c23137b771c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 149087854}
   m_SourcePrefab: {fileID: 100100000, guid: ff809012324d5ce4db798c23137b771c, type: 3}
 --- !u!1001 &1603938877
 PrefabInstance:
@@ -2876,6 +3141,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7119512674978284386, guid: ff809012324d5ce4db798c23137b771c,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3355,6 +3625,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1187740077}
+    - targetCorrespondingSourceObject: {fileID: 4822194570740302561, guid: ff809012324d5ce4db798c23137b771c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1187740078}
   m_SourcePrefab: {fileID: 100100000, guid: ff809012324d5ce4db798c23137b771c, type: 3}
 --- !u!1 &1801579301
 GameObject:
@@ -3518,6 +3792,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7119512674978284386, guid: ff809012324d5ce4db798c23137b771c,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3526,6 +3805,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1897962913}
+    - targetCorrespondingSourceObject: {fileID: 4822194570740302561, guid: ff809012324d5ce4db798c23137b771c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1897962914}
   m_SourcePrefab: {fileID: 100100000, guid: ff809012324d5ce4db798c23137b771c, type: 3}
 --- !u!1 &1895981384
 GameObject:
@@ -3681,7 +3964,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09812bb67e2ecd84997872806b871969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::fallingplatform
-  rb: {fileID: 0}
+  rb: {fileID: 1897962914}
+--- !u!54 &1897962914
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897962912}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1927845090
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3853,6 +4163,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7119512674978284386, guid: ff809012324d5ce4db798c23137b771c,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3861,6 +4176,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 976374964}
+    - targetCorrespondingSourceObject: {fileID: 4822194570740302561, guid: ff809012324d5ce4db798c23137b771c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 976374965}
   m_SourcePrefab: {fileID: 100100000, guid: ff809012324d5ce4db798c23137b771c, type: 3}
 --- !u!1 &2055914957
 GameObject:

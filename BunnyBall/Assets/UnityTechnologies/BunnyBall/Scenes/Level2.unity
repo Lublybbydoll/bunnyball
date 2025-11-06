@@ -1091,7 +1091,7 @@ PrefabInstance:
     - target: {fileID: 7119512674978284386, guid: ff809012324d5ce4db798c23137b771c,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1782,7 +1782,7 @@ PrefabInstance:
     - target: {fileID: 7119512674978284386, guid: ff809012324d5ce4db798c23137b771c,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2202,7 +2202,7 @@ PrefabInstance:
     - target: {fileID: 7119512674978284386, guid: ff809012324d5ce4db798c23137b771c,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2580,7 +2580,7 @@ PrefabInstance:
     - target: {fileID: 7119512674978284386, guid: ff809012324d5ce4db798c23137b771c,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3044,7 +3044,7 @@ PrefabInstance:
     - target: {fileID: 7119512674978284386, guid: ff809012324d5ce4db798c23137b771c,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3145,7 +3145,7 @@ PrefabInstance:
     - target: {fileID: 7119512674978284386, guid: ff809012324d5ce4db798c23137b771c,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3795,7 +3795,7 @@ PrefabInstance:
     - target: {fileID: 7119512674978284386, guid: ff809012324d5ce4db798c23137b771c,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4166,7 +4166,7 @@ PrefabInstance:
     - target: {fileID: 7119512674978284386, guid: ff809012324d5ce4db798c23137b771c,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4342,7 +4342,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -4366,6 +4366,16 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 830316567}
+    - target: {fileID: 7443251220583942649, guid: f757b320558b7984c96b025d56b0fd51,
+        type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7443251220583942649, guid: f757b320558b7984c96b025d56b0fd51,
+        type: 3}
+      propertyPath: jumpForce
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 7443251220583942649, guid: f757b320558b7984c96b025d56b0fd51,
         type: 3}
       propertyPath: gameManager

@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/respin/6000.2.6f2-cc51a95c03' branch; Version is '6000.2.6f2 (4a4dcaec6541) revision 4869578'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-JacindaGreen" at "2025-11-03T13:34:46.8554136Z"
 OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'en' Physical Memory: 7876 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-11-03T13:34:46Z
+Date: 2025-11-05T14:20:47Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-JacindaGreen" at "2025-11-05T14:20:47.0361766Z"
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Unity.exe
@@ -17,7 +17,7 @@ C:/Users/JacindaGreen/Documents/bwaaa/bunnyball/BunnyBall
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53721
+53358
 -licensingIpc
 LicenseClient-JacindaGreen
 -job-worker-count
@@ -65,17 +65,18 @@ C:/Users/JacindaGreen/Documents/bwaaa/bunnyball/BunnyBall
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [38200]  Target information:
+Player connection [62020]  Target information:
 
-Player connection [38200]  * "[IP] 10.220.26.48 [Port] 0 [Flags] 2 [Guid] 1342623633 [EditorId] 1342623633 [Version] 1048832 [Id] WindowsEditor(7,UAC-LS-JXD4B44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [62020]  * "[IP] 172.21.0.1 [Port] 0 [Flags] 2 [Guid] 2580741153 [EditorId] 2580741153 [Version] 1048832 [Id] WindowsEditor(7,UAC-LS-JXD4B44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [38200] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [38200] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [62020]  * "[IP] 10.225.31.14 [Port] 0 [Flags] 2 [Guid] 2580741153 [EditorId] 2580741153 [Version] 1048832 [Id] WindowsEditor(7,UAC-LS-JXD4B44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [62020] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [62020] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-Library Redirect Path: Library/
 [Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 11312, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Error: HandshakeResponse reported an error:
@@ -83,25 +84,26 @@ Library Redirect Path: Library/
 	ResponseStatus: Unsupported protocol version '1.17.2'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-JacindaGreen"
 [Licensing::IpcConnector] LicenseClient-JacindaGreen channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-JacindaGreen-6000.2.6" at "2025-11-03T13:34:46.9731169Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 56724, path: "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-JacindaGreen-6000.2.6" at "2025-11-05T14:20:47.4996476Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 49204, path: "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
+Library Redirect Path: Library/
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.2+ff71f16
-  Session Id:              084523baecc2410d99f3abdbe5565629
-  Correlation Id:          43998a7092239c56a630cf5e7121aee1
-  External correlation Id: 21022913695403371
+  Session Id:              1a0bc25a443d45c1b15c0ea7f2ca9b0e
+  Correlation Id:          ef94add57b1e878dc03ea3033e88131a
+  External correlation Id: 9177890009358237635
   Machine Id:              1HYi3UYbHC3ZT/EWQitAvGWnLnw=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-JacindaGreen-6000.2.6" (connect: 0.01s, validation: 0.02s, handshake: 0.01s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-JacindaGreen-6000.2.6-notifications" at "2025-11-03T13:34:47.0101292Z"
-[Licensing::Module] Licensing Background thread has ended after 0.16s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-JacindaGreen-6000.2.6" (connect: 0.01s, validation: 0.10s, handshake: 0.07s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-JacindaGreen-6000.2.6-notifications" at "2025-11-05T14:20:47.6618795Z"
+[Licensing::Module] Licensing Background thread has ended after 0.63s
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 128.31 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 37.24 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.6f2 (4a4dcaec6541)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Resources/UnitySubsystems
@@ -121,45 +123,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007838 seconds.
-- Loaded All Assemblies, in  0.618 seconds
+Registered in 0.020220 seconds.
+- Loaded All Assemblies, in  1.763 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.463 seconds
-Domain Reload Profiling: 1080ms
-	BeginReloadAssembly (258ms)
+- Finished resetting the current domain, in  1.177 seconds
+Domain Reload Profiling: 2936ms
+	BeginReloadAssembly (921ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (56ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (83ms)
-	LoadAllAssembliesAndSetupDomain (205ms)
-		LoadAssemblies (247ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (156ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (210ms)
+	LoadAllAssembliesAndSetupDomain (433ms)
+		LoadAssemblies (863ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (202ms)
-			TypeCache.Refresh (199ms)
-				TypeCache.ScanAssembly (180ms)
+		AnalyzeDomain (426ms)
+			TypeCache.Refresh (421ms)
+				TypeCache.ScanAssembly (377ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (464ms)
+	FinalizeReload (1180ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (428ms)
+		SetupLoadedEditorAssemblies (913ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (78ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (113ms)
-			ProcessInitializeOnLoadAttributes (189ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			InitializePlatformSupportModulesInManaged (131ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (174ms)
+			ProcessInitializeOnLoadAttributes (407ms)
+			ProcessInitializeOnLoadMethodAttributes (192ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
@@ -172,47 +174,47 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  1.122 seconds
-Refreshing native plugins compatible for Editor in 5.02 ms, found 4 plugins.
+- Loaded All Assemblies, in  2.057 seconds
+Refreshing native plugins compatible for Editor in 14.55 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.019 seconds
-Domain Reload Profiling: 2137ms
-	BeginReloadAssembly (223ms)
+- Finished resetting the current domain, in  2.022 seconds
+Domain Reload Profiling: 4035ms
+	BeginReloadAssembly (368ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (14ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (807ms)
-		LoadAssemblies (593ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (1476ms)
+		LoadAssemblies (1081ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (321ms)
-			TypeCache.Refresh (189ms)
-				TypeCache.ScanAssembly (176ms)
-			BuildScriptInfoCaches (116ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1019ms)
+		AnalyzeDomain (592ms)
+			TypeCache.Refresh (404ms)
+				TypeCache.ScanAssembly (375ms)
+			BuildScriptInfoCaches (167ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (2024ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (875ms)
+		SetupLoadedEditorAssemblies (1703ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (282ms)
-			ProcessInitializeOnLoadAttributes (514ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (481ms)
+			ProcessInitializeOnLoadAttributes (967ms)
+			ProcessInitializeOnLoadMethodAttributes (213ms)
+			AfterProcessingInitializeOnLoad (30ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (49ms)
 WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -225,88 +227,74 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 4.53 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 137.64 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6983 unused Assets / (8.6 MB). Loaded Objects now: 7504.
-Memory consumption went from 141.2 MB to 132.7 MB.
-Total: 13.099800 ms (FindLiveObjects: 1.280500 ms CreateObjectMapping: 0.570200 ms MarkObjects: 6.917200 ms  DeleteObjects: 4.329000 ms)
+Unloading 6983 unused Assets / (11.2 MB). Loaded Objects now: 7504.
+Memory consumption went from 141.6 MB to 130.5 MB.
+Total: 944.618900 ms (FindLiveObjects: 556.292700 ms CreateObjectMapping: 9.224700 ms MarkObjects: 307.368700 ms  DeleteObjects: 71.727200 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 1127557.005221 seconds.
-  path: Assets/Settings/UniversalRP.asset
-  artifactKey: Guid(681886c5eb7344803b6206f758bf0b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e58cb1f318d1f4d7d3e4f902e19ed0d') in 0.1921424 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.437 seconds
+Refreshing native plugins compatible for Editor in 13.70 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.719 seconds
+Domain Reload Profiling: 7204ms
+	BeginReloadAssembly (2676ms)
+		ExecutionOrderSort (3ms)
+		DisableScriptedObjects (235ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (5ms)
+		CreateAndSetChildDomain (1296ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (107ms)
+	LoadAllAssembliesAndSetupDomain (2603ms)
+		LoadAssemblies (2248ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (953ms)
+			TypeCache.Refresh (110ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (730ms)
+			ResolveRequiredComponents (39ms)
+	FinalizeReload (1721ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1490ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (410ms)
+			ProcessInitializeOnLoadAttributes (919ms)
+			ProcessInitializeOnLoadMethodAttributes (134ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 7.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6981 unused Assets / (8.0 MB). Loaded Objects now: 7508.
+Memory consumption went from 143.3 MB to 135.3 MB.
+Total: 19.924400 ms (FindLiveObjects: 1.673400 ms CreateObjectMapping: 0.457100 ms MarkObjects: 11.977500 ms  DeleteObjects: 5.811300 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 3.550069 seconds.
-  path: Assets/Tree_Textures/normal_specular.png
-  artifactKey: Guid(e7c5ca8ffef1ec6419b37ee22b6cf837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures/normal_specular.png using Guid(e7c5ca8ffef1ec6419b37ee22b6cf837) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '444c0637365e0955acdbfd4550b08912') in 0.146483 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Tree_Textures/translucency_gloss.png
-  artifactKey: Guid(563a2743e5c59a441bc79143883a7ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures/translucency_gloss.png using Guid(563a2743e5c59a441bc79143883a7ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa24242018f9ec301b0e30ff439b69bd') in 0.0246845 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.643516 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
-  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f51be58a22b7a12ab1ae252293148830') in 0.2569212 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9366b9d5925e91113c5b6046df13ed5e') in 0.0533345 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.345521 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph
-  artifactKey: Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph using Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0230298c49ed89011c710d21787f7941') in 0.0945851 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteLit.shadergraph
-  artifactKey: Guid(24a73dccd7b6fad4798be282f96a21f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteLit.shadergraph using Guid(24a73dccd7b6fad4798be282f96a21f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '637a5518ff544853a7a51d0a989ce067') in 0.0270032 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph
-  artifactKey: Guid(f63d574838ccfb44f84acc05fed0af48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph using Guid(f63d574838ccfb44f84acc05fed0af48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2726e1414b176f2436fa9a1e77e70ce') in 0.0173255 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.760007 seconds.
-  path: Packages/com.unity.2d.psdimporter/Editor/Assets/pivot.fbx
-  artifactKey: Guid(1c7762c9bce5f4ab7b060decb9e3002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/pivot.fbx using Guid(1c7762c9bce5f4ab7b060decb9e3002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '331fb4525988d7d0aa49d3c0f64fd676') in 0.1094087 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Prepare: number of updated asset objects reloaded= 0

@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
     public int jumpForce = 200;
     private int x = 0;
     private bool isGrounded = false;
+    private book doubleJump = true
 
     void Update()
     {
@@ -35,6 +36,7 @@ public class Player : MonoBehaviour
         }
     }
 
+    if(isGrounded == false && doubleJump = true && Input.GetKeyDown(KeyCode.Space))
     void OnCollisionEnter(Collision other){
         if(other.gameObject.CompareTag("Ground"))
         {
